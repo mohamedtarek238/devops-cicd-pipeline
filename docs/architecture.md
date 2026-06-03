@@ -1,18 +1,39 @@
 # Architecture
 
+## Overview
+
+This project implements a containerized CI/CD pipeline using Jenkins and Docker.
+
+## Components
+
+* GitHub Repository
+* Jenkins Container
+* Docker Engine
+* Nginx-based Web Application
+
+## Workflow
+
 Developer
-    |
-    v
+|
+v
 GitHub Repository
-    |
-    v
+|
+v
 Jenkins Pipeline
-    |
-    v
-Docker Build
-    |
-    v
-Docker Container
-    |
-    v
-Application
+|
+v
+Docker Image Build
+|
+v
+Container Deployment
+|
+v
+Web Application
+
+## Technologies
+
+* CentOS Stream 10
+* Docker
+* Jenkins
+* Git
+* Nginx
